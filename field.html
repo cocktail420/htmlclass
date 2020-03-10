@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title></title>
+</head>
+<body>
+	<div class="container container
+	-fluid">
+<form action="/action_page.php" autocomplete="off">
+<fieldset>
+	<legend>personalia:</legend>
+	<label for="fname">first name:</label><br>
+	<input type="text" id="fname" name="fname" value="john"><br>
+	<label for="lname">last name:</label><br>
+	<input type="text" id="lname" name="
+	lname" value="doe" autocomplete="off"><br><br>
+	<input type="submit" value="submit">
+	<input type="reset" >
+</fieldset>
+</form>
+<br><br>
+<form action="/action_page.php">
+	<input list="browers">
+	<datalist id="browers">
+	<option value="internet explorer">	
+		<option value="firefox">
+		<option value="chrome">
+		<option value="opera">
+		<option value="safari">				
+	</datalist>
+</form>
+<input type="file">
+</div>
+<div class="container container-fluid">
+<form class="form-horizontal" action="/action_page.php">
+<div class="form-group">
+<label class="control-label col-sm-2" for="email">email address:</label>
+<div class="col-sm-10">
+	<input type="email" class="form-control input-sm" id="email" name="">
+</div>
+</div>	
+<div class="form-group">
+<label class="control-label col-sm-2" for="pwd">password:</label>
+<div class="col-sm-10">
+	<input type="password" class="form-control input-lg" id="pwd" name="">
+	</div>
+</div>
+<div class="checkbox">
+<label><input type="checkbox" name="">remember me</label>
+</div>
+<div class="form-group">
+ <button type="submit" class="btn-btn-default">submit</button>
+</div>			
+</form>
+</div>
+<div class="form-group row">
+	<div class="col-xs-2">
+		<label for="ex1">col-xs-2</label>
+		<input class="form-control" id="ex1" type="text" name="">
+	</div>
+	<div class="col-xs-3">
+		<label for="ex2">col-xs-3</label>
+		<input class="form-control" id="ex1" type="text" name="">
+	</div>
+	<div class="col-xs-4">
+		<label for="ex3">col-xs-4</label>
+		<input class="form-control" id="ex3" type="text" name="">
+	</div>
+</div>
+<div class="form-group">
+	<label for="pwd">passwoed:</label>
+	<input type="passwoed" class="form-control" id="pwd" placeholder="enter password" name="">
+	<span class="help-block">this is some help text...</span>
+</div>
+</body>
+</html>
